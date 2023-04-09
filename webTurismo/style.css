@@ -1,0 +1,441 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+
+
+
+body{
+
+    background-color: #138D75;
+}
+
+h3{
+    font-size: 2.3rem;
+    font-family: 'Alkatra', cursive;;
+    
+   
+    padding: 5px 10px;
+    text-align: center;
+    
+}
+
+.main-header{
+    
+    
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+     url(Aconquija-Las-Estancias-Catamarca-Paisajes.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+.main-nav {
+    position: fixed;
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    width: 98%;
+}
+
+ul{
+
+   
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+    position: relative;
+}
+ul li a{
+    display: inline-block;
+    padding: 20px 30px;
+    color: white;
+
+
+}
+
+ul li a:hover{
+    background-color: rgb(8, 156, 107);
+    color: rgba(0,0,0,);
+}
+
+ul li:hover .sub-ul {
+    display: block;
+}
+
+.sub-ul{
+    position: absolute;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    display: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+
+.conten-header {
+
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.conten-header h1 {
+    font-size: 3rem;
+
+
+}
+
+.conten-header h2 {
+
+    font-size: 1.8rem;
+
+}
+
+.a{
+
+    font-size: 5rem;
+    color: rgb(107, 211, 107);
+    text-shadow: 3px 3px 2px black;
+
+}
+
+.resto{
+
+    font-size: 5rem;
+    color: rgba(99, 135, 235, 0.925);
+    text-shadow: 3px 3px 2px black;
+
+
+}
+ 
+/* CONTENEDOR DE BODY*/
+
+.contenedor{
+
+    margin: 5px 10px;
+   
+}
+/*SECCION NOSOTROS*/
+.nosotros{
+
+    
+    padding: 10px;
+    width: 80%;
+    margin: 30px auto;
+    text-align: justify;
+    border-top: 4px solid rgb(22, 137, 74);
+    border-bottom:4px solid rgb(22, 137, 74);
+   
+}
+.nosotros h3{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+ .parrafo-nosotros img{
+
+    
+    float: left;
+    margin-right: 15px;
+}
+/*COMO LLEGAR*/
+.como-llegar{
+   
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 1000px;
+  
+   
+   
+}
+
+#como-llegar{
+
+    background: #5DADE2;
+    margin: 40px auto;
+    padding-bottom: 50px;
+    border-bottom:4px solid rgb(22, 137, 74);
+
+}
+
+#como-llegar h3{
+    
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 60px;
+    padding: 70px;
+}
+#como-llegar p{
+    text-align: center;
+    margin:auto;
+    padding: 5px;
+}
+
+.box{
+
+    width: 400px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    border: 3px solid #fff;
+    box-shadow: 8px 9px 5px #0033FF ;
+
+}
+
+.box img{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.capes{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 87, 34, 0.3);
+    color: #fff ;    
+    justify-content: center;
+    align-items: center;
+    text-shadow: 3px 3px 1px rgb(46, 38, 38);
+    transform: scale(0);
+    transition: .3s ease;
+
+}
+
+.capes h4{
+
+    text-align: center;
+    
+    margin-top: 100px;
+    font-size: 1.3rem;
+}
+
+.capes p{
+
+    padding: 10px 20px;
+    text-align: justify;
+    
+}
+
+.box:hover .capes{
+
+    transform: scale(1);
+
+    
+
+
+}
+
+.como-llegar h3{
+
+
+    font-size: 2rem;
+    
+    padding: 5px 10px;
+    text-align: center;
+
+}
+/*EVENTOS*/
+.eventos{
+
+   /* background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)) ;
+    */width: 100%;
+    margin-bottom: 70px;
+    padding-bottom: 70px;
+    border-bottom:4px solid rgb(22, 137, 74);
+    
+
+     
+}
+
+.eventos h3{
+    
+    text-align: center;
+    font-size: 1.8rem;
+    
+    
+}
+
+.columnas{
+    display: flex;
+}
+
+
+.columna1{
+    display: flex;
+    justify-content: center;
+    
+    
+    width: 50%;
+
+}
+
+.columna1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    border-radius: 6px;
+    
+}
+
+.columna1 figure img{
+
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+
+
+    
+}
+
+.columna1 figure .capa{
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(35, 37, 43, 0.5);
+    color: white;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+
+}
+
+.columna1 figure:hover > .capa {
+
+    opacity: 1;
+    visibility: visible;
+}
+/*TURISMO*/
+.turismo{
+    background: #2ECC71 ;
+    padding: 10px 20px;
+}
+
+.barras{
+    display: flex;
+}
+.barras .barra1{
+
+    border-left: 6px solid #34495E;
+    padding: 5px 10px;
+    text-align: justify;
+}
+.barra1 h5{
+
+    text-align: center;
+    color: #1F618D ;
+    font-size: 1.3rem;
+}
+
+.turismo button{
+    
+    width: 50px;
+    height: 50px;
+    background: #15b9cf;
+    border-radius: 100%;
+}
+
+.contenedorSlider{
+
+    height: 90vh;
+    width: 70%;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    display: none;
+    margin-left: auto;
+
+    
+    }
+
+.slider {
+
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+}
+
+.images{
+
+    display: flex;
+    width: 100%;
+
+}
+
+.images img{
+    height: 400px;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+
+.images input {
+    display: none;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+
+}
+
+.dots label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+
+.dots label:hover{
+    background-color: aliceblue;
+}
+
+#img1:checked ~ .m1{
+    margin-left: 0; 
+}
+#img2:checked ~ .m2{
+    margin-left: -100%; 
+}
+#img3:checked ~ .m3{
+    margin-left: -200%; 
+}
+#img4:checked ~ .m4{
+    margin-left: -300%; 
+}
+
+.sub-hospedajes{
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    border-left: 3px solid seagreen;
+}
